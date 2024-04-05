@@ -1,0 +1,1 @@
+UPDATE usuario set nome = 'Kubo Ishida' WHERE id = 1
