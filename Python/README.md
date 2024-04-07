@@ -552,3 +552,20 @@ def salario_bonus(bonus):
 salario_bonus(500)
 
 ```
+
+## Classes 
+
+- Init : usada quando a classe é instanciada, esse init é usado para iniciar as variaveis
+- E o self dentro dos parenteses indica que ele está referenciando a classe controle ou seja tudo que for inicializado vai pertencer a classe controle ele funciona como se fosse o this em outras linguagens 
+- E depois da virgula são os params de inicialização
+```py
+
+class Controle:
+    def __init__(self, cor):
+        self.cor = cor            
+
+    pass
+
+
+```
+
