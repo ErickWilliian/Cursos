@@ -127,7 +127,7 @@ Um registro, também conhecido como linha ou tupla, é uma instância individual
 
 EX:
 
-```sql
+```sql CREATE TABLE personagens ( id SERIAL PRIMARY KEY, nome varchar(50), anime varchar(100)
 
 Create table usuario (id SERIAL PRIMARY KEY,nome varchar(50))
 

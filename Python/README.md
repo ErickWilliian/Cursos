@@ -569,3 +569,25 @@ class Controle:
 
 ```
 
+## Decorators
+
+- Exemplo com flask
+- O que um decorator faz é dar uma nova funcionalidade para uma função que vem abaixo ele
+```py
+
+from flask import Flask
+
+app = Flask(__name__)
+
+
+# Então que acontece aqui, normalmente a função abaixo vai so retornar um texto
+# Mas com esse decorator ele vai fazer com que o resultado dessa função seja exibido numa rota
+# entendeu? Ele deu numa nova funcionalidade pra essa função
+# inves de exibir so um texto ele vai criar uma pagina
+@app.route("/")
+def homepage():
+    return " Olá mundo !"
+
+
+app.run()
+```
